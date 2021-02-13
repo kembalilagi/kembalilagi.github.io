@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap');
+
+@font-face {
+	font-family: "BrittanySignature";
+	src : url('../font/BrittanySignature.ttf') format("truetype");}
+
+@font-face {
+	font-family: "Aquire";
+	src :url('../font/Aquire.otf') format("opentype");
+}
+
+@font-face {
+	font-family: "AquireLight";
+	src : url('../font/AquireLight.otf') format("opentype");
+}
+
+body { 
+	font-family: 'Rajdhani', sans-serif;
+	margin: 0;
+	text-decoration: none;
+	scroll-behavior: smooth; 
+	height: 100%;
+}
+
+
+section {
+  padding: 10px 0;
+  
+}
+
+#hero {
+	width: 100%;
+	height: 100vh;
+	background: #37517e;
+}
+
+ #hore {
+ 	width: 100%;
+ 	height: 100vh;
+ 	background: #f1f1f1;
+ }
+
+.dev-team {
+ 	font-family: "Aquire";
+ 	font-size: 12px;
+ }
+
+ .dev-team-2 {
+ 	font-family: "AquireLight";
+ 	font-size: 10px;
+ }
+
+
+ .text-brand {
+	font-family: "BrittanySignature";
+	font-size: 60px;
+	text-decoration: none;
+	padding-top: 12rem ;
+}
+
+.text-brand-2 {
+	font-family: "BrittanySignature";
+	font-size: 20px;
+}
+
+.social {
+	font-family: 'Poppins', sans-serif;
+	font-size: 12px;
+}
+
+.social p {
+	text-decoration: none !important;
+}
+
+.car-text {
+	 position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 30px/* Some padding */
+}
+
+.solid {
+	border-style: solid;
+	font-size: 13px;
+}
+
+.hr-solid{
+	border-top: 1px solid #8c8b8b;
+}
+
