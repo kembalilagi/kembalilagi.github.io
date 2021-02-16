@@ -23,6 +23,7 @@
 	<script src="assets/js/jquery-3.5.1.slim.min.js"></script>
 	<script src="assets/js/bootstrap.bundle.min.js"></script>
 
+
 	<!-- fontawesome -->
 	<script src="assets/fawesome/all.min.js"></script>
 
@@ -33,7 +34,10 @@
 </head>
 <body class="d-flex flex-column h-100">
 	<script type="text/javascript">
-		AOS.init();
+		AOS.init({
+			duration: 1000,
+			once: true,
+		});
 	</script>
 
 	<!-- ======= Hero Section ======= -->
@@ -122,24 +126,26 @@
 
 		<!--<p class="text-center mt-5" style="font-size: 13px">Come join us<br> #team_kembali <br>for more info, please contact our Instagram</p>-->
 
-
 		<div class="mt-5" style="font-size: 13px;margin-top: 50px !important;">
 			<!--<p>SIGNATURE BEVERAGE KAMI ADALAH NUTELLA LATTE DAN KOPI SUSU KIWI.</p>-->
 			<!-- solid border -->
-			<div class="container solid" style="">
+			<div class="container solid animated" style="" data-aos="zoom-in" data-aos-delay="">
 				<p class="font-weight-bolder mt-1" style="font-family: 'Lexend Mega', sans-serif; font-size: 15px">PRESIDENT'S CHOICE</p>
 				<!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
 				  <div class="row font-italic font-weight-normal">
-				    <div class="col-6 col-md-4 h6">Kiwi Latte</div>
-				    <div class="col-6 col-md-4 h6">Nutella Latte</div>
+				    <div class="col-6 col-md-4 h6">Kiwi Latte - 18</div>
+				    <div class="col-6 col-md-4 h6">Nutella Latte - 20</div>
+				    <div class="col-6 col-md-4"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+				    <div class="col-6 col-md-4"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
 				  </div>
+				  <br>
 				</div>
 			</div><!-- end border -->
 		</div>
 		<br>
     </div>
     <p class="dev-team mt-1 ml-2" style="font-size: 12px;"><br>#Team_Kembali<br></p>
-    
+    <div class="container"><hr class="bg-dark"></div>
    </section>
    <!--<footer class="footer container">
 		  <div class="container" style="padding-right: 15px;padding-left: 15px;">
@@ -167,7 +173,7 @@
 			<br>
 			<div class="row">
 				<div class="col-6 col-md-4 font-weight-bolder" style="font-size: 13px">Coffee Lemon - 18</div>
-				<div class="col-6 col-md-4 font-weight-bolder" style="font-size: 13px">Nutella Latte - 25</div>
+				<div class="col-6 col-md-4 font-weight-bolder" style="font-size: 13px">Nutella Latte - 20</div>
 				<div class="col-6 col-md-4 font-italic" style="font-size: 13px">hot / iced</div>
 				<div class="col-6 col-md-4 font-italic" style="font-size: 13px">hot / iced</div>
 			</div>
@@ -181,9 +187,15 @@
 			<br>
 			<div class="row">
 				<div class="col-6 col-md-4 font-weight-bolder" style="font-size: 13px">Caramel Latte - 20</div>
+				<div class="col-6 col-md-4 font-weight-bolder" style="font-size: 13px">Kiwi Latte - 18</div>
+				<div class="col-6 col-md-4 font-italic" style="font-size: 13px">hot / iced</div>
+				<div class="col-6 col-md-4 font-italic" style="font-size: 13px">hot / iced</div>
+			</div>
+			<br>
+			<div class="row">
 				<div class="col-6 col-md-4 font-weight-bolder" style="font-size: 13px">Latte - 16 / 18</div>
-				<div class="col-6 col-md-4 font-italic" style="font-size: 13px">hot / iced</div>
-				<div class="col-6 col-md-4 font-italic" style="font-size: 13px">hot / iced</div>
+				<div class="col-6 col-md-4 font-italic"></div>
+				<div class="col-6 col-md-4 font-italic">hot / iced</div>
 			</div>
 			<br>
 			<div class="row">
@@ -267,22 +279,17 @@
 			<div class="row">
 				<div class="col-6 col-md-4 font-weight-bolder" style="font-size: 13px">Burger Cheese - 15</div>
 				<div class="col-6 col-md-4 font-weight-bolder" style="font-size: 13px">Burger Kembali - 15</div>
-				<div class="col-6 col-md-4 font-italic"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-				<div class="col-6 col-md-4 font-italic"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-			</div>
+				</div>
 			<br>
 			<div class="row">
 				<div class="col-6 col-md-4 font-weight-bolder" style="font-size: 13px">Kentang Goreng - 13</div>
 				<div class="col-6 col-md-4 font-weight-bolder" style="font-size: 13px">Pisang Goreng - 16</div>
-				<div class="col-6 col-md-4 font-italic"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-				<div class="col-6 col-md-4 font-italic"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-			</div>
+				</div>
 			<br>
 			<div class="row">
 				<div class="col-6 col-md-4 font-weight-bolder" style="font-size: 13px">Otak-otak - 13</div>
 				<div class="col-6 col-md-4 font-italic"></div>
-				<div class="col-6 col-md-4 font-italic"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-			</div>
+				</div>
 			<hr class="bg-dark">
 		</div><!-- bates menu snack -->
 
@@ -291,23 +298,33 @@
 			<div class="row">
 				<div class="col-6 col-md-4 font-weight-bolder" style="font-size: 13px">Nasi Goreng - 13</div>
 				<div class="col-6 col-md-4 font-weight-bolder" style="font-size: 13px">Kwetiau - 13</div>
-				<div class="col-6 col-md-4"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-				<div class="col-6 col-md-4"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
 			</div>
 			<br>
 			<div class="row">
+				<div class="col-6 col-md-4 font-weight-bolder" style="font-size: 13px;">Ayam Lada Hitam - 15</div>
+				<div class="col-6 col-md-4 font-weight-bolder" style="font-size: 13px;">Teriyaki - 15</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-6 col-md-4 font-weight-bolder" style="font-size: 13px;">Sate Taichan - 15</div>
 				<div class="col-6 col-md-4 font-weight-bolder" style="font-size: 13px">Indomie - 10</div>
-				<div class="col-6 col-md-4 font-weight-bolder"></div>
+				<div class="col-6 col-md-4"></div>
 				<div class="col-6 col-md-4 font-italic" style="font-size: 13px">goreng / kuah</div>
 			</div>
 			<hr class="bg-dark">
 		</div><!-- bates menu food -->
 
 		<div class="container">
+			<p class="dev-team mt-5 ml-2" style="font-size: 12px;"><br>#Team_Kembali<br></p>
+		</div>
+
+		<!-- comunity
+		<div class="container ">
 			<p class="lead text-muted font-weight-bolder">COMMUNITY </p>
 
-			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-		        <div class="carousel-inner bg-info" role="listbox">
+			
+			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-aos="fade-in" data-aos-delay="200">
+		        <div class="carousel-inner w-75 content-center container-fluid" role="listbox">
 
 		            <div class="carousel-item active">
 		                <img class="d-block w-100 min-vh-500" src="assets/img/comunity-1.jpeg">
@@ -339,16 +356,32 @@
 		            <span class="carousel-control-next-icon" aria-hidden="true"></span>
 		            <span class="sr-only">Next</span>
 		        </a>
-
-		        
-
 		    </div>
+		</div> -->
 
+		
 
-		</div>
+<!--
+		<a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
 
-		<div class="container">
-			<p class="dev-team mt-5 ml-2" style="font-size: 12px;"><br>#Team_Kembali<br></p>
-		</div>
+		<script type="text/javascript">
+			$(document).ready(function() {
+			$(window).scroll(function() {
+			if ($(this).scrollTop() > 20) {
+			$('#toTopBtn').fadeIn();
+			} else {
+			$('#toTopBtn').fadeOut();
+			}
+			});
+
+			$('#toTopBtn').click(function() {
+			$("html, body").animate({
+			scrollTop: 0
+			}, 1000);
+			return false;
+			});
+			});
+		</script>
+	-->
 </body>
 </html>
